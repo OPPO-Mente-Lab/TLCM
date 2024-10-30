@@ -29,7 +29,7 @@ pip install transformers accelerate
 ## Example Use
 
 We provide an example inference script in the directory of this repo. 
-You should download the Lora path from [here]() and use a base model, such as [SDXL1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) , as the recommended option.
+You should download the Lora path from [here](https://huggingface.co/AIGCer-OPPO/TLCM) and use a base model, such as [SDXL1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) , as the recommended option.
 After that, you can activate the generation with the following code:
 ```
 python inference.py --prompt {Your prompt} --output_dir {Your output directory} --lora_path {Lora_directory} --base_model_path {Base_model_directory} --infer-steps 4
