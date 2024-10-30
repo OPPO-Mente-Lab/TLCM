@@ -39,35 +39,43 @@ More parameters are presented in paras.py. You can modify them according to your
 ## Art Gallery
 
 Here we present some examples with different samping steps.
-
+<div align="center">
+    <p>2-Steps Sampling</p>
+</div>
 <p align="center">
     <img src="assets/2s/dog.jpg" alt="图片1" width="180" />
     <img src="assets/2s/girl1.jpg" alt="图片2" width="180" />
     <img src="assets/2s/girl2.jpg" alt="图片3" width="180" />
     <img src="assets/2s/rose.jpg" alt="图片4" width="180" />
 </p>
-<p style="text-align: center;">2-Steps Sampling.</p>
+<div align="center">
+    <p>3-Steps Sampling</p>
+</div>
 <p align="center">
     <img src="assets/3s/batman.jpg" alt="图片1" width="180" />
     <img src="assets/3s/horse.jpg" alt="图片2" width="180" />
     <img src="assets/3s/living room.jpg" alt="图片3" width="180" />
     <img src="assets/3s/woman.jpg" alt="图片4" width="180" />
 </p>
-<p style="text-align: center;">3-Steps Sampling.</p>
+<div align="center">
+    <p>4-Steps Sampling</p>
+</div>
 <p align="center">
     <img src="assets/4s/boat.jpg" alt="图片1" width="180" />
     <img src="assets/4s/building.jpg" alt="图片2" width="180" />
     <img src="assets/4s/mountain.jpg" alt="图片3" width="180" />
     <img src="assets/4s/wedding.jpg" alt="图片4" width="180" />
 </p>
-<p style="text-align: center;">4-Steps Sampling.</p>
+<div align="center">
+    <p>8-Steps Sampling</p>
+</div>
 <p align="center">
     <img src="assets/8s/car.jpg" alt="图片1" width="180" />
     <img src="assets/8s/cat.jpg" alt="图片2" width="180" />
     <img src="assets/8s/robot.jpg" alt="图片3" width="180" />
     <img src="assets/8s/woman.jpg" alt="图片4" width="180" />
 </p>
-<p style="text-align: center;">8-Steps Sampling.</p>
+
 
 ## Addition
 
