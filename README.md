@@ -1,7 +1,7 @@
 # TLCM: Training-efficient Latent Consistency Model for Image Generation with 2-8 Steps
 
 <p align="center">
-   📃 <a href="https://arxiv.org/abs/2406.05768" target="_blank">Paper</a> • 
+   📃 <a href="https://arxiv.org/html/2406.05768v5" target="_blank">Paper</a> • 
    🤗 <a href="https://huggingface.co/AIGCer-OPPO/TLCM" target="_blank">Checkpoints</a> 
 </p>
 
