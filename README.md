@@ -49,7 +49,7 @@ More parameters are presented in paras.py. You can modify them according to your
 
 
 <p style="font-size: 24px; font-weight: bold; color: #FF5733; text-align: center;">
-    <span style=" padding: 10px; border-radius: 5px;">
+    <span style=" padding: 110px; border-radius: 5px;">
         🚀 Update 🚀
     </span>
 </p>
@@ -141,164 +141,214 @@ image = pipe(prompt=prompt, num_inference_steps=eval_step, guidance_scale=7).ima
 ```
 ## Art Gallery
 Here we present some examples based on **SDXL** with different samping steps.
-
 <div align="center">
     <p>2-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="assets/SDXL/2steps/dog.jpg" alt="图片1" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/2steps/girl1.jpg" alt="图片2" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/2steps/girl2.jpg" alt="图片3" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/2steps/rose.jpg" alt="图片4" width="170" style="margin: 0px;" />
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/2steps/dog.jpg" alt="图片1" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/2steps/girl1.jpg" alt="图片2" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/2steps/girl2.jpg" alt="图片3" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/2steps/rose.jpg" alt="图片4" width="170" />
+        </td>
+    </tr>
+</table>
 
 <div align="center">
     <p>3-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="assets/SDXL/3steps/batman.jpg" alt="图片1" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/3steps/horse.jpg" alt="图片2" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/3steps/living room.jpg" alt="图片3" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/3steps/woman.jpg" alt="图片4" width="170" style="margin: 0px;" />
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/3steps/batman.jpg" alt="图片1" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/3steps/horse.jpg" alt="图片2" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/3steps/living room.jpg" alt="图片3" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/3steps/woman.jpg" alt="图片4" width="170" />
+        </td>
+    </tr>
+</table>
 
 <div align="center">
     <p>4-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="assets/SDXL/4steps/boat.jpg" alt="图片1" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/4steps/building.jpg" alt="图片2" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/4steps/mountain.jpg" alt="图片3" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/4steps/wedding.jpg" alt="图片4" width="170" style="margin: 0px;" />
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/4steps/boat.jpg" alt="图片1" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/4steps/building.jpg" alt="图片2" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/4steps/mountain.jpg" alt="图片3" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/4steps/wedding.jpg" alt="图片4" width="170" />
+        </td>
+    </tr>
+</table>
 
 <div align="center">
     <p>8-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="assets/SDXL/8steps/car.jpg" alt="图片1" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/8steps/cat.jpg" alt="图片2" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/8steps/robot.jpg" alt="图片3" width="170" style="margin: 0px;" />
-    <img src="assets/SDXL/8steps/woman.jpg" alt="图片4" width="170" style="margin: 0px;" />
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/8steps/car.jpg" alt="图片1" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/8steps/cat.jpg" alt="图片2" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/8steps/robot.jpg" alt="图片3" width="170" />
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/SDXL/8steps/woman.jpg" alt="图片4" width="170" />
+        </td>
+    </tr>
+</table>
 
 We also present some examples based on **FLUX**.
 <div align="center">
     <p>3-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; overflow-x: auto;">
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/3steps/portrait.jpg" alt="图片1" width="170" />
-        <br>
-        <span style="font-size: 12px;">Seasoned female journalist...</span><br>
-        <span style="font-size: 12px;">eyes behind glasses...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/3steps/hallway.jpg" alt="图片2" width="170" />
-        <br>
-        <span style="font-size: 12px;">A grand hallway</span><br>
-        <span style="font-size: 12px;">inside an opulent palace...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/3steps/starnight.jpg" alt="图片3" width="170" />
-        <br>
-        <span style="font-size: 12px;">Van Gogh’s Starry Night...</span><br>
-        <span style="font-size: 12px;">replace... with cityscape</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/3steps/sailor.jpg" alt="图片4" width="170" />
-        <br>
-        <span style="font-size: 12px;">A weathered sailor...</span><br>
-        <span style="font-size: 12px;">blue eyes...</span>
-    </div>
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/3steps/portrait.jpg" alt="图片1" width="170" />
+            <br>
+            <span style="font-size: 12px;">Female journalist...</span><br>
+            <span>eyes behind glasses...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/3steps/hallway.jpg" alt="图片2" width="170" />
+            <br>
+            <span style="font-size: 12px;">A grand hallway</span><br>
+            <span style="font-size: 12px;">inside an opulent palace...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/3steps/starnight.jpg" alt="图片3" width="170" />
+            <br>
+            <span style="font-size: 12px;">Van Gogh’s Starry Night...</span><br>
+            <span style="font-size: 12px;">replace... with cityscape</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/3steps/sailor.jpg" alt="图片4" width="170" />
+            <br>
+            <span style="font-size: 12px;">A weathered sailor...</span><br>
+            <span style="font-size: 12px;">blue eyes...</span>
+        </td>
+    </tr>
+</table>
 <div align="center">
     <p>4-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; overflow-x: auto;">
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/4steps/guitar.jpg" alt="图片1" width="170" />
-        <br>
-        <span style="font-size: 12px;">A guitar,</span><br>
-        <span style="font-size: 12px;">2d minimalistic icon...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/4steps/cat.jpg" alt="图片2" width="170" />
-        <br>
-        <span style="font-size: 12px;">A cat</span><br>
-        <span style="font-size: 12px;">near the window...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/4steps/rabbit.jpg" alt="图片3" width="170" />
-        <br>
-        <span style="font-size: 12px;">close up photo of a rabbit...</span><br>
-        <span style="font-size: 12px;">forest in spring...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/4steps/blossom.jpg" alt="图片4" width="170" />
-        <br>
-        <span style="font-size: 12px;">...urban decay...</span><br>
-        <span style="font-size: 12px;">...a vibrant cherry blossom...</span>
-    </div>
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/4steps/guitar.jpg" alt="图片1" width="170" />
+            <br>
+            <span style="font-size: 12px;">A guitar,</span><br>
+            <span style="font-size: 12px;">2d minimalistic icon...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/4steps/cat.jpg" alt="图片2" width="170" />
+            <br>
+            <span style="font-size: 12px;">A cat</span><br>
+            <span style="font-size: 12px;">near the window...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/4steps/rabbit.jpg" alt="图片3" width="170" />
+            <br>
+            <span style="font-size: 12px;">Close up photo of a rabbit...</span><br>
+            <span style="font-size: 12px;">forest in spring...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/4steps/blossom.jpg" alt="图片4" width="170" />
+            <br>
+            <span style="font-size: 12px;">...urban decay...</span><br>
+            <span style="font-size: 12px;">...a vibrant cherry blossom...</span>
+        </td>
+    </tr>
+</table>
+
 <div align="center">
     <p>6-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; overflow-x: auto;">
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/6steps/dog.jpg" alt="图片1" width="170" />
-        <br>
-        <span style="font-size: 12px;">A cute dog</span><br>
-        <span style="font-size: 12px;">on the grass...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/6steps/tea.jpg" alt="图片2" width="170" />
-        <br>
-        <span style="font-size: 12px;">...hot floral tea</span><br>
-        <span style="font-size: 12px;">in glass kettle...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/6steps/bag.jpg" alt="图片3" width="170" />
-        <br>
-        <span style="font-size: 12px;">...a bag...</span><br>
-        <span style="font-size: 12px;">luxury product style...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/6steps/cat.jpg" alt="图片4" width="170" />
-        <br>
-        <span style="font-size: 12px;">a master jedi cat...</span><br>
-        <span style="font-size: 12px;">wearing a jedi cloak hood</span>
-    </div>
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/6steps/dog.jpg" alt="图片1" width="170" />
+            <br>
+            A cute dog<br>
+            <span style="font-size: 12px;">on the grass...</span></span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/6steps/tea.jpg" alt="图片2" width="170" />
+            <br>
+            <span style="font-size: 12px;">...hot floral tea</span><br>
+            <span style="font-size: 12px;">in glass kettle...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/6steps/bag.jpg" alt="图片3" width="170" />
+            <br>
+            <span style="font-size: 12px;">A bag...</span><br>
+            <span style="font-size: 12px;">luxury product style...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/6steps/cat.jpg" alt="图片4" width="170" />
+            <br>
+            <span style="font-size: 12px;">A master jedi cat...</span><br>
+            <span style="font-size: 12px;">wearing a jedi cloak hood</span>
+        </td>
+    </tr>
+</table>
+
 <div align="center">
     <p>8-Steps Sampling</p>
 </div>
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; overflow-x: auto;">
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/8steps/lion.jpg" alt="图片1" width="170" />
-        <br>
-        <span style="font-size: 12px;">A lion...</span><br>
-        <span style="font-size: 12px;">low-poly game art...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/8steps/street.jpg" alt="图片2" width="170" />
-        <br>
-        <span style="font-size: 12px;">Tokyo street...</span><br>
-        <span style="font-size: 12px;">blurred motion...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/8steps/dragon.jpg" alt="图片3" width="170" />
-        <br>
-        <span style="font-size: 12px;">A tiny red dragon sleeps</span><br>
-        <span style="font-size: 12px;">curled up in a nest...</span>
-    </div>
-    <div style="text-align: center; margin: 0px;">
-        <img src="assets/FLUX/8steps/female.jpg" alt="图片4" width="170" />
-        <br>
-        <span style="font-size: 12px;">A female...a postcard</span><br>
-        <span style="font-size: 12px;">with "WanderlustDreamer"</span>
-    </div>
-</div>
+<table>
+    <tr>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/8steps/lion.jpg" alt="图片1" width="170" />
+            <br>
+            <span style="font-size: 12px;">A lion...</span><br>
+            <span style="font-size: 12px;">low-poly game art...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/8steps/street.jpg" alt="图片2" width="170" />
+            <br>
+            <span style="font-size: 12px;">Tokyo street...</span><br>
+            <span style="font-size: 12px;">blurred motion...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/8steps/dragon.jpg" alt="图片3" width="170" />
+            <br>
+            <span style="font-size: 12px;">A tiny red dragon sleeps</span><br>
+            <span style="font-size: 12px;">curled up in a nest...</span>
+        </td>
+        <td style="text-align: center; margin: 10px;">
+            <img src="assets/FLUX/8steps/female.jpg" alt="图片4" width="170" />
+            <br>
+            <span style="font-size: 12px;">A female...a postcard</span><br>
+            <span style="font-size: 12px;">with "WanderlustDreamer"</span>
+        </td>
+    </tr>
+</table>
+
 
 
 ## Addition
@@ -309,8 +359,10 @@ More details are presented in the paper.
 ## Citation
 
 ```
-@article{xietlcm,
+@article{xie2024tlcm,
   title={TLCM: Training-efficient Latent Consistency Model for Image Generation with 2-8 Steps},
-  author={Xie, Qingsong and Liao, Zhenyi and Chen, Chen and Deng, Zhijie and TANG, SHIXIANG and Lu, Haonan}
+  author={Xie, Qingsong and Liao, Zhenyi and Deng, Zhijie and Lu, Haonan},
+  journal={arXiv preprint arXiv:2406.05768},
+  year={2024}
 }
 ```
